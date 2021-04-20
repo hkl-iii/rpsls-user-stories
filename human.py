@@ -4,7 +4,8 @@ class Human(Player):
 
     def __init__(self):
 
-        def pick_gesture(self, player_2):
+        def choose_fate(self, player_2):
             chosen_gesture = choice.gestures
+            return chosen_gesture
             print (chosen_gesture)
 
